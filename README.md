@@ -56,6 +56,10 @@ Both scripts:
 - run auto-analysis
 - print the discovered functions
 
+## Agents
+
+Coding agents are pretty good at using the IDA Domain API. You can look at [ida-plugin-development/skills](https://github.com/HexRaysSA/ida-claude-plugins/tree/main/plugins/ida-plugin-development/skills) as a starting point.
+
 ## Files
 
 - `idalib_example.py`
