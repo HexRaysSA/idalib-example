@@ -1,0 +1,10 @@
+[project]
+name = "idalib-example"
+version = "1.0.0"
+description = "Simple example project for idalib and ida-domain."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "idapro>=0.0.7", # idalib with IDAPython
+    "ida-domain>=0.4.0", # ida-domain
+]
