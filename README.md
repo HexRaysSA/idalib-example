@@ -15,7 +15,7 @@ Simple example project for [idalib](https://docs.hex-rays.com/user-guide/idalib)
    uv sync
    ```
 
-2. Activate `idalib` once globally:
+2. For IDA 9.3 or lower, activate `idalib` once globally:
 
    ```bash
    # windows
@@ -25,14 +25,6 @@ Simple example project for [idalib](https://docs.hex-rays.com/user-guide/idalib)
    ```
 
    **NOTE**: If you use [`hcli`](https://github.com/HexRaysSA/ida-hcli) to manage your IDA installation this is not necessary.
-
-You can also use a regular Python virtual environment:
-
-```bash
-python -m venv .venv
-.venv/bin/activate
-pip install -e .
-```
 
 ## Running the examples
 
